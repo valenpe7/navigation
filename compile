@@ -1,0 +1,7 @@
+#!/bin/bash
+cd ./src
+echo -e "navigation: compilation started"
+make all
+echo -e "navigation: complitaion completed"
+make clean
+mv navigation ../navigation
